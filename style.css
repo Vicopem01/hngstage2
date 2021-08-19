@@ -33,7 +33,6 @@ section {
 }
 .section {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
   padding: 100px 0;
 }
@@ -45,7 +44,21 @@ h2 {
 p {
   font-weight: 300;
 }
-h3{
-    font-weight: 400;
-    padding: 20px 0;
+h3 {
+  font-weight: 400;
+  padding: 20px 0;
+}
+button {
+    color: #fff;
+  background-color: #fcf810;
+  width: 300px;
+  padding: 20px;
+}
+footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+footer p {
+  margin-right: 30px;
 }
