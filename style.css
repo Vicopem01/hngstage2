@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font);
+}
+:root {
+  --font: "Roboto", sans-serif;
+}
+.header {
+  background-image: url("./img.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fcf810;
+  position: relative;
+}
+.header div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-size: 5rem;
+}
+.header p {
+  font-size: 2rem;
+}
+section {
+  width: 80%;
+  margin: auto;
+}
+.section {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+h2 {
+  font-weight: 500;
+  padding: 30px 0;
+  font-size: 2.5rem;
+}
+p {
+  font-weight: 300;
+}
